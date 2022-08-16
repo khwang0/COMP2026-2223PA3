@@ -12,7 +12,7 @@
 * Download the demo program: [here](demo.jar)
 * Download everything from the assignment: [here](https://github.com/khwang0/COMP2026-2223PA3/archive/refs/heads/master.zip)
 
-> To run the demo program on Windows, type the following in your terminal:
+> To run the demo program, type the following in your terminal:
 > 
 > ```sh
 > > java -jar demo.jar
@@ -22,12 +22,12 @@
 
 # Learning outcome
 
-Students are expected to have some practice on object-oriented programming concept/Inheritance/Polymorphism/List/Exception Handling/visibility in this assignment. We expect most students would spend X hours or more to finish the assignment without any assistance. Make sure you start earlier as possible and ask us on Piazza if you have any difficulty!
+Students are expected to have some practice on object-oriented programming concept/Inheritance/Polymorphism/List/Exception Handling/visibility in this assignment. We expect most students would spend 5 hours or more to finish the assignment without any assistance. Make sure you start earlier as possible and ask us on Piazza if you have any difficulty!
 
 
 # Introduction
 
-You are going to implement a game Tower Defense (TD). In this assignments there are quit a few of Java files that you need to include in the project. You need to complete the methods stated in the skeleton code. Make sure you can follow the instructions given at the top of each method. The file structure is as below:
+You are going to implement a game Tower Defense (TD). In this assignment there are quite a few Java files that you need to include in the project. You need to complete the methods stated in the skeleton code. Make sure you can follow the instructions given at the top of each method. The file structure is as below:
 
 | Files | Need to modify | Remarks |
 |---|---|---|
@@ -71,15 +71,18 @@ You are more than welcome to improve the game by creating some interesting monst
 This part is independent to your programming code. You will need to answer the following short questions by **another due date**.
 Submit your answers on Moodle. 
 
-1. Assume the stacks on the table are: `Stack 0: [1, 4]`, `Stack 1: [10, 56]`, `Stack 2: [5]`, `Stack 3: [90, 91, 92, 95]`. Which stack should the card 44 be placed?
-2. According to the demo program, which of the following action the program will do when the game is over?
-   1. Print the scores of all players
-   2. Say "Good bye"
-   3. Ask the user to play again
-   4. Crash
-3. By which method a Table object can know a player's score (total number bull head)?
-4. If a computer player is forced to pick up a stack, according to the assignment description which stack the computer player should pick?
-
+1. If an `ArcheryTower` is built at (3, 1) (i.e., row 3, column 1). Will a monster located in the following locations be attacked by this tower (assume there is only one monster).
+   1.  (2, 3) 
+   2.  (4, 4)
+   3.  (5, 2)
+2. Determine if the following relationship is correct or not:
+   1. A block is a tower.
+   2. A tower is a block.
+   3. An archeryTower is a LaserTower.
+   4. A monster is a tower.
+   5. A monster is a block.
+   6. A catapult is not a tower.
+3. Is it true that a Catapult will attack multiple monsters at a time and all monsters receive the same amount of damage?
 
 ---
 
@@ -126,7 +129,7 @@ This assignment is worth X% of the course mark. There are three elements in the 
 5% - Programming style and documentation
 up to 15% - Bonus - creative design of the assignment. You are qualified for this part only if you have received 85% mark or above. Bonus is given based on the amount of effort (which may not be proportional to the outcome) you have spent on it.
 
- 
+> Important: in this assignment, you are free to use any API including `List`, `ArrayList`...
 
 ## Interview 
 Should the teaching team see fit, students may be requested to attend an interview to explain about their program.  Students failing to attend such interview or to demonstrate a good understanding of their own program may result in mark deduction. 

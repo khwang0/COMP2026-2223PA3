@@ -30,7 +30,7 @@ public class Game {
      */
     private int score;
     /**
-     * How many money the player has. Money is required for building tower
+     * How much money the player has. Money is required for building tower
      */
     private int money;
     /**

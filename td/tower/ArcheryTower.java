@@ -7,7 +7,7 @@ import td.Block;
 /**
  * Archery 
  * 
- * The archery tower will aim only monster that has positive, non-zero 
+ * The archery tower will aim only one monster that has positive, non-zero 
  * health point. If there are multiple monster that are in range,
  * pick the one that is nearest to "home".
  * 
