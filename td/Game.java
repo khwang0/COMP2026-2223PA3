@@ -126,14 +126,19 @@ public class Game {
     }
 
     /**
-     * Called from Display to build a tower.
+     * Called from Display to build a tower. 
+     * Please note that a tower cannot be built
+     * - on column 0;
+     * - on a monster;
+     * - on another tower; or
+     * - if insufficient money.
      * 
      * @param tower - which tower. 1 = ArcheryTower; 2 = LaserTower; 3 = CatapultTower
      * @param row - which row to build
      * @param col - which column to build
      * 
      * @return true if success, false if fail. Fail can be due to incorrect coordinate 
-     * (out-of-bound/build on a monster/build on another tower..) or insufficient fund.
+     * (out-of-bound/build on a monster/build on another tower..) or insufficient money.
      */
     public boolean build(int tower, int row, int col) {
         //TODO

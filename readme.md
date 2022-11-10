@@ -4,11 +4,10 @@
 ## 2022-23 Semester 1
 
 * Designed by: [Dr. Kevin Wang](mailto:kevinw@comp.hkbu.edu.hk)
-* Q & A: [Piazza](https://piazza.com/)
 * Assignment Website: [GitHub](https://github.com/khwang0/COMP2026-2223PA3)
 * Due: 
-  * UAT Due: 11:59am (Monday noon), TBD
-  * Programming Due: 23:59pm (Saturday midnight), TBD 
+  * UAT Due: 23:59pm 21/11/2022 (Monday midnight)
+  * Programming Due: 23:59pm 3/12/2022 (Saturday midnight)
 * Download the demo program: [here](demo.jar)
 * Download everything from the assignment: [here](https://github.com/khwang0/COMP2026-2223PA3/archive/refs/heads/master.zip)
 
@@ -22,8 +21,10 @@
 
 # Learning outcome
 
-Students are expected to have some practice on object-oriented programming concept/Inheritance/Polymorphism/List/Exception Handling/visibility in this assignment. We expect most students would spend 5 hours or more to finish the assignment without any assistance. Make sure you start earlier as possible and ask us on Piazza if you have any difficulty!
+Students are expected to have some practice on object-oriented programming concepts/Inheritance/Polymorphism/List/Exception Handling/visibility in this assignment. We expect most students would spend 5 hours or more to finish the assignment without any assistance. Make sure you start earlier as possible and ask us on Discord if you have any difficulty!
 
+
+> Bonus: there is a bonus part for this assignment, please read all instruction.
 
 # Introduction
 
@@ -52,6 +53,8 @@ Some methods are labeled as completed or given. Please don't make any change on 
 
 This is a video game that monster will come out on each round. The monster will get stronger and stronger as times goes by. The player starts with some money that can be used to build towers or upgrade towers. These tower will shoot and kill monsters. However, if one monster can escape from the tower's attack and reach the home sign, the game is over. The objective of the game is to get as much point (number of monster killed) as possible. When a monster steps on a tower, the tower will be crashed. 
 
+In each turn, a monster will come out from the first column but a random row. All monsters will move to the right along their row (i.e. monster does not change row). Towers can be built on the grid **except for the first column**.
+
 Most of the game details can be found at the comment of the java file. Good luck!
 
 # Demo
@@ -65,6 +68,8 @@ It is totally OK if your program does not work with the GUI version. We will gra
 # Bonus
 
 You are more than welcome to improve the game by creating some interesting monsters and towers. If you wish to attempt the bonus part, please complete the original program first. Then make your bonus part in another project and submit them separately. 
+
+You are supposed to create ONE monster and ONE tower. And you can improve the program in any way that you like. We are looking for the effort you have spent in preparing the bonus. 
 
 # Understanding the Assignment Test (UAT)
 
@@ -121,13 +126,13 @@ if (lateHour > 0) {
  Plagiarism is a serious offense and can be easily detected. Please don't share your code to your classmate even if they are threatening you with your friendship. If they don't have the ability to work on something that can compile, they would not be able to change your code to a state that we can't detect the act of plagiarism. For the first commit of plagiarism, regardless you shared your code or copied code from others, you will receive 0 with an addition of 5 mark penalty. If you commit plagiarism twice, your case will be presented in the exam board and you will receive a F directly.
 
 ## Marking Scheme 
-This assignment is worth X% of the course mark. There are three elements in the marking scheme:
+There are three elements in the marking scheme:
 
-5% - Understanding the Assignment Test (UAT)
-25% - The program can be compiled.
-65% - a working program that functions as specified
-5% - Programming style and documentation
-up to 15% - Bonus - creative design of the assignment. You are qualified for this part only if you have received 85% mark or above. Bonus is given based on the amount of effort (which may not be proportional to the outcome) you have spent on it.
+- 5% - Understanding the Assignment Test (UAT)
+- 25% - The program can be compiled.
+- 65% - a working program that functions as specified
+- 5% - Programming style and documentation
+- Bonus - up to 5% of your overall grade - a creative design of the assignment. You are qualified for this part only if you have received 85% mark or above. Bonus is given based on the amount of effort (which may not be proportional to the outcome) you have spent on it. Amount of effort may be measured different for students at different levels.
 
 > Important: in this assignment, you are free to use any API including `List`, `ArrayList`...
 
